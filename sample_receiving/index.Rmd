@@ -1,0 +1,72 @@
+---
+output: html_document
+pagetitle: Sample Receiving
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+
+## Sample Receiving
+
+1. **Morning Check:**
+   - Check all three mailboxes outside for any samples delivered after hours or early that morning.
+   - Process these samples first.
+
+2. **Delivery Processing:**
+   - Handle FedEx drop-offs first, as they are usually the largest.
+   - Later, process UPS and USPS deliveries as they arrive.
+
+## Before Preping the Samples
+
+### 1. Making the Basket
+
+1. **Open the Shipment:**
+   - Carefully open the packages with scissors at the edge where the package was folded to avoid damaging the Chain of Custody (COC) forms inside.
+
+2. **Identify the Order Type:**
+   - Check if the order is an APP job or one that needs to be entered into the system:
+     - **COC Present:** Fill out the COC with your initials, date, time, and samples received.
+     - **No COC / AQ# Present:** It’s an APP job. Write the AQ number and/or inspector's name on a sticky note and place it in the basket with the samples.
+
+3. **Shipping Label Reference:**
+   - If the shipping label has a reference, stamp a "Prepaid label" stamp on the COC or the sticky note.
+   - Open all packages and sort them into their respective baskets.
+
+### 2. Data Entry
+
+#### For APP Jobs:
+1. **Log in:**
+   - Go to [shop.sporcyte.com](https://shop.sporecyte.com/wp-admin/edit.php?post_type=shop_order).
+
+2. **Enter Order Details:**
+   - Look up the AQ# or the inspector's name.
+   - Ensure the selected order matches the sample barcodes.
+   - If the order has a "Prepaid label" stamp, add shipping to the order:
+     - In the "Item" section, click "add item(s)" → "add product" → type "fed" → select "2-day FedEx Return Shipping" → add → recalculate → OK.
+   - Update the "order custom fields" with today’s date for sample received and scanned dates.
+   - Change the status from "pending payment" to "On hold".
+   - Click "update".
+
+#### For Orders with COC:
+1. **Log in:**
+   - Go to [mobile.sporcyte.com](https://mobile.sporcyte.com/main).
+
+2. **Create New Job:**
+   - Search for the inspector’s name and select the correct inspector. Verify the company name and email domain if the name doesn’t appear.
+   - Fill in the property information as per the COC. Use "-" if no address, city, or zip code is provided.
+
+3. **Enter Sample Information:**
+   - Specify if the sample is indoor, outdoor, or surface.
+   - Enter sample type and location as per the COC.
+   - Input the barcode details:
+     - Air-O-Cells: Use the last 4 digits of the barcode.
+     - Surface Slides, Allergenco-D Posi-Track, Allergenco-D: Use the entire barcode.
+     - Surface Swabs: Create a barcode abbreviation (e.g., Lower Level Bathroom = LLB).
+   - Add Duration and Flow for Air-O-Cells (usually 5 and 15, respectively).
+
+4. **Complete the Order:**
+   - Click "create Job" → "Finish".
+   - Write the AQ# on the top right of the COC.
+   - Follow the same steps as APP jobs in shop.sporcyte.com.
+   - Print labels for orders by clicking "generate labels" in mobile.sporcyte.com and distributing them into the correct baskets by AQ number.

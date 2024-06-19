@@ -1,0 +1,49 @@
+---
+output: html_document
+pagetitle: Sample Preparation
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+### 3. Sample Preparation
+
+1. **Prepare Samples:**
+   - Pick a job from the basket and line up all the samples.
+   - Use thin slides (small white cardboard box) for Air-O-Cells samples.
+   - Match the label with the barcode on each sample and place it on the bottom of each slide.
+
+2. **Open Samples:**
+   - Open the samples using the appropriate tool (metal implement).
+
+3. **Add Blue Gel:**
+   - Add a drop of blue gel to each slide.
+   - Place a cover slip over the blue drop. Ensure the word "left" on the slide is readable and on the left side.
+   - Ensure the blue gel covers all the area inside the black box of the cover slip.
+
+4. **Prepare Allergenco-D:**
+   - Follow the same steps as for Air-O-Cells. Samples from the sample holder should already be facing up.
+
+5. **Prepare Allergenco-D Posi-Trac:**
+   - The samples will already come with a slide.
+   - Place the printed label above the original barcode without covering it.
+   - Follow the same steps as for Air-O-Cells.
+
+6. **Prepare Surface Swabs:**
+   - Use a thick slide for these samples.
+   - Paste the label on the bottom of the slide.
+   - Paste 3/4 inch of double-sided tape above the label.
+   - Rub the swab on the tape to adhere the swab molecules to the tape.
+   - Tap the swab on the tape as a final step.
+   - Add a drop of blue gel and cover slip as usual.
+
+7. **Prepare Surface Slides:**
+   - Paste the label on the bottom of the slide without covering the original barcode.
+   - Ensure the slide is smooth; remove any rough edges with a razor knife.
+   - Add blue gel and cover slip.
+
+8. **Assign Orders to Yourself:**
+   - Go to [app.sporecyte.com](https://app.sporecyte.com).
+   - Click the box to the left of the AQ# and click the tag icon on the bar at the top of the screen.
+   - Find these jobs on the Inbox page under the "needs attention" tab.
+   - You can see jobs assigned to you in the "assigned to lab" tab.

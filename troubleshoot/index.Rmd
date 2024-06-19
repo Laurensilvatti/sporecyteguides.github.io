@@ -1,0 +1,14 @@
+---
+output: html_document
+pagetitle: Sample Receiving
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+## Troubleshooting
+
+- Analysts will notify you if they need a specific slide rescanned via the Sporecyte Ops channel.
+- Regularly check this channel for any requests or issues.
+
+This guide ensures all new hires can effectively process samples from receiving to scanning, maintaining the highest standards of accuracy and organization.

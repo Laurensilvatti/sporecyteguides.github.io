@@ -1,0 +1,47 @@
+---
+output: html_document
+pagetitle: Scanning
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+## Scanning
+
+### Motic Scanner:
+
+1. **Open Software:**
+   - Ensure the software for scanning is open.
+
+2. **Load Slide:**
+   - Place the slide onto the slide holder, ensuring the label is at the bottom of the slide holder cassette.
+   - Insert the cassette into the Motic and let it process.
+   - The Motic will scan and alert you when done.
+
+### Grundium Scanner:
+
+1. **Load Slide:**
+   - Place the surface slide (or any other) onto the Grundium.
+
+2. **Initiate Scan:**
+   - Go to the specific order on [app.sporecyte.com](https://app.sporecyte.com).
+   - Find the slide barcode and click the microscope icon on the right.
+   - Select the scanner (OCUS 147 or OCUS 353).
+   - In "profile," select "Mold_manual."
+   - Click "scan slide."
+
+3. **Adjust Scan Area:**
+   - Wait until the image of the slide appears on the screen.
+   - Re-select the scan area to be within the black box area of the cover slip.
+   - Click "scan" and close the window.
+
+### Final Steps:
+
+1. **Review Scans:**
+   - When all slides of a job have been scanned, the job status will say "processing" in the "assigned to lab" tab.
+   - When the job says "pending review," review the scans before assigning them to an analyst.
+   - If a slide needs a rescan, unlink the scan by clicking the link icon next to the sample.
+   - Note the sample barcode and rescan using another Motic or Grundium.
+
+2. **Assign to Analyst:**
+   - If all scanned slides look good, assign them to an analyst the same way you assigned them to yourself. Click the box next to the AQ# and the tag icon on the bar that appears.
