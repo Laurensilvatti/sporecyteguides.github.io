@@ -13,9 +13,9 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 
 This is the online space where you can take a look at all the procedures we use at Sporecyte
 
-## [Sample Receiving](https://sporecyteguides.github.io/sample_receiving/)
-## [Sample Preparation](https://sporecyteguides.github.io/sample_prep/)
-## [Scanning](https://sporecyteguides.github.io/scanning/)
-## [Troubleshooting](https://sporecyteguides.github.io/troubleshoot/)
+## [Sample Receiving](https://laurensilvatti.github.io/sporecyteguides.github.io/sample_receiving/)
+## [Sample Preparation](https://laurensilvatti.github.io/sporecyteguides.github.io/sample_prep/)
+## [Scanning](https://laurensilvatti.github.io/sporecyteguides.github.io/scanning/)
+## [Troubleshooting](https://laurensilvatti.github.io/sporecyteguides.github.io/troubleshoot/)
 
 
